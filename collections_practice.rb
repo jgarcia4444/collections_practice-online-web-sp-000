@@ -19,8 +19,12 @@ def swap_elements(array)
   array.each_with_index do |ele, i|
     if i == 2
       placeholder_ele = array.pop
+      swapped_arr << ele
+      swapped_arr << placeholder_ele
     end
+    swapped_arr << ele
   end
+  swapped_arr
 end
 
 def reverse_array(array)
