@@ -18,7 +18,7 @@ def swap_elements(array)
 
   array.each_with_index do |ele, i|
     if i == 2
-      placeholder_ele = array.pop
+      placeholder_ele = swapped_array.pop
       swapped_arr << ele
       swapped_arr << placeholder_ele
       next
