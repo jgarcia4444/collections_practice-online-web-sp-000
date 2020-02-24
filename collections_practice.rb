@@ -24,7 +24,7 @@ def swap_elements(array)
     end
     swapped_arr << ele
   end
-  swapped_arr
+  puts swapped_arr
 end
 
 def reverse_array(array)
