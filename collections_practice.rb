@@ -39,4 +39,5 @@ def kesha_maker(array)
     word_arr[2] = "$"
     kesha_arr << word_arr.join("")
   end
+  return kesha_arr
 end
