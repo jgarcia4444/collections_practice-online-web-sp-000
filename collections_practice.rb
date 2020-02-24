@@ -21,6 +21,7 @@ def swap_elements(array)
       placeholder_ele = array.pop
       swapped_arr << ele
       swapped_arr << placeholder_ele
+      next
     end
     swapped_arr << ele
   end
