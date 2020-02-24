@@ -14,7 +14,13 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  swapped_arr = []
 
+  array.each_with_index do |ele, i|
+    if i == 2
+      placeholder_ele = array.pop
+    end
+  end
 end
 
 def reverse_array(array)
