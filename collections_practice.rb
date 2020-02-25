@@ -48,6 +48,6 @@ def find_a(word_arr)
   end
 end
 
-def sum_arr(num_arr)
+def sum_array(num_arr)
   num_arr.inject(0) {|result, num| result += num}
 end
