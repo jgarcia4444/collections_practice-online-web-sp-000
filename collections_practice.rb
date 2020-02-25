@@ -47,3 +47,7 @@ def find_a(word_arr)
     word[0] == "a"
   end
 end
+
+def sum_arr(num_arr)
+  num_arr.inject(0) {|result, num| result += num}
+end
